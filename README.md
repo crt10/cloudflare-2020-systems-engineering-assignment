@@ -33,5 +33,5 @@ CLI tool to make, time and measure GET HTTP requests, done in golang.
 Dividing each response size with their respective mean response time:
 - `http://apache.org` = 0.0025 ms/byte
 - `http://web.mit.edu/` = 0.0008 ms/byte
-- `https://link-tree.tennyson-cheng.workers.dev/links` = 0.2 ms/byte
+- `https://link-tree.tennyson-cheng.workers.dev/links` = 0.2 ms/byte\
 Interestingly, Cloudflare Workers had a significantly longer response time (about 150x longer).
